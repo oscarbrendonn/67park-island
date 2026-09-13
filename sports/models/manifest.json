@@ -1,0 +1,199 @@
+{
+  "revision": 2,
+  "key": "b1c3a5ca4323a1c018a82eddfe6ef8275a626856691489291734c5b6163849ca",
+  "source": "Iceland 6 v110.2",
+  "sourceHashes": {
+    "stadium-coast-v99.js": "520a6fbf4eb490203dea81311057ca61226f494ce7471555cc1bfa8ac8562770",
+    "west-courtyard-v102.js": "e09f3e2181019d9d72522ed037f885500d2304791c67c77c33a07bc0187b42a7",
+    "central-details-v73.js": "662804cac68df1faee14b0eed622478bbc541986f3367677328c4c25c5c05a1c",
+    "sports-balls-v103.js": "687a15d0719af229351eb314296a33da0e9ddb3641539f0fa1173fd9cd9d191d",
+    "ada_calisma.glb": "f5450f195d65aa34137db1802cfb5b16cbc1f1c048b05961a01cb6498f9471d6",
+    "small-island-props-v45.glb": "e8b3d00e14e54a600976f6f9e48d6f9f78883c93af9a52a373f8d1aff308737a"
+  },
+  "grey": "cec2bb",
+  "modes": {
+    "basket": {
+      "bytes": 23325872,
+      "triangles": 323646,
+      "draws": 25,
+      "bounds": [
+        [
+          -45.47999572753908,
+          -0.4100000014901161,
+          -28.72999954223634
+        ],
+        [
+          41.479999542236335,
+          12.996249618530273,
+          47.72999572753907
+        ]
+      ],
+      "normalization": {
+        "center": [
+          -54,
+          0.31,
+          -30.5
+        ],
+        "yaw": 1.5707963267948966
+      },
+      "stats": {
+        "version": 102,
+        "revision": 3,
+        "buildings": 19,
+        "domes": 4,
+        "windows": 516,
+        "solidDoors": 19,
+        "arcadeOpenings": 3,
+        "field": {
+          "sport": "basketball",
+          "center": [
+            -54,
+            -30.5
+          ],
+          "size": [
+            31.8,
+            19.8
+          ],
+          "playingSize": [
+            28,
+            15
+          ],
+          "goals": 0,
+          "hoops": 2,
+          "hoopDetails": [
+            {
+              "side": "west",
+              "rim": [
+                -66.72,
+                3.9699999999999998,
+                -30.5
+              ],
+              "rimHeight": 3.65,
+              "post": [
+                -69.2,
+                0.32,
+                -30.5
+              ],
+              "openNet": true
+            },
+            {
+              "side": "east",
+              "rim": [
+                -41.28,
+                3.9699999999999998,
+                -30.5
+              ],
+              "rimHeight": 3.65,
+              "post": [
+                -38.8,
+                0.32,
+                -30.5
+              ],
+              "openNet": true
+            }
+          ],
+          "separateGreyBase": true,
+          "ball": {
+            "position": [
+              -51.2,
+              0.63,
+              -28.3
+            ],
+            "radius": 0.32,
+            "interactive": false
+          }
+        },
+        "draws": 27,
+        "triangles": 328318,
+        "ground": 0,
+        "grey": "cec2bb",
+        "roadsModified": false,
+        "curbsModified": false,
+        "treesAdded": 0
+      }
+    },
+    "penalty": {
+      "bytes": 6895504,
+      "triangles": 108370,
+      "draws": 17,
+      "bounds": [
+        [
+          -20.349993896484364,
+          -0.5200000029802323,
+          -39.400001525878906
+        ],
+        [
+          66.92013244628907,
+          13.299999885559082,
+          50.22000026702881
+        ]
+      ],
+      "normalization": {
+        "center": [
+          181.2,
+          0.32,
+          -37
+        ],
+        "yaw": 0
+      },
+      "stats": {
+        "version": 99,
+        "revision": 7,
+        "stadium": {
+          "x": 181.2,
+          "z": -37,
+          "r": 18,
+          "straight": 34.7,
+          "tiers": 8,
+          "wallRaise": 1,
+          "platform": [
+            181,
+            -33.4,
+            40.3,
+            86
+          ],
+          "sideDoors": {
+            "count": 2,
+            "openingWidth": 4.8,
+            "clearWidth": 4.5,
+            "clearHeight": 3.68,
+            "open": true
+          }
+        },
+        "coast": {
+          "west": 215.25,
+          "north": -76,
+          "south": 13.4
+        },
+        "umbrellas": 4,
+        "loungers": 6,
+        "benches": 2,
+        "draws": 27,
+        "triangles": 119872,
+        "grey": "cec2bb",
+        "foliage": {
+          "source": "exact approved park v45 buffers and park v63 materials",
+          "trees": 2,
+          "shrubs": 1,
+          "addedGeometryBytes": 0
+        },
+        "entrance": "open south portal plus west and east double doors",
+        "pitch67": "approved flat numeral geometry",
+        "football": {
+          "position": [
+            183,
+            0.66,
+            -28.8
+          ],
+          "radius": 0.34,
+          "interactive": false
+        },
+        "roadsModified": false,
+        "curbsModified": false,
+        "lighthouseModified": false,
+        "marinaModified": false,
+        "ground": 0
+      }
+    }
+  }
+}
