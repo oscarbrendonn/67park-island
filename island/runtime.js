@@ -5,6 +5,10 @@ import {createIslandAssetCache} from '../app/island-asset-cache.js';
 import {repairIslandStairs,stairAt,stairsRailBlocked} from '/67park-island/app/island-stair-geometry.js';
 import {applyCurbJoins} from '/67park-island/app/island-curb-joins.js';
 import {applyParkEdges} from '/67park-island/app/island-park-edges.js';
+import {applyParcelPaving} from '/67park-island/app/pavement-followup/island-parcel-paving.js';
+import {applyFountainGroundFollowup} from '/67park-island/app/pavement-followup/fountain-ground.js';
+import {applyParcelCorners} from '/67park-island/app/pavement-followup/parcel-corners.js';
+import {wrapParcelRepairSampler} from '/67park-island/app/pavement-followup/parcel-precision.js';
 import * as THREE from 'three';
 import {createStableSunShadow52} from './stable-sun-shadow-v52.js';
 import {loadSmallIslandProps} from './small-island-props-v62.js?v=roof1';
@@ -75,6 +79,10 @@ function pastelProfiliniUygula(mod){
     mod,renderer.toneMappingExposure,gunes.intensity,ortamCarpani
   ].join(',');
 }
+
+
+
+
 
 
 
@@ -1221,6 +1229,9 @@ await entryStage(13,'Finishing the northern neighbourhood');
   renderer.domElement.dataset.parkEdges=JSON.stringify(applyParkEdges(kok,parkEdgePatch));
   const curbJoinPatch=await islandFetch('/67park-island/repairs/curb-joins-v3.json').then(r=>{if(!r.ok)throw Error('Curb join repair missing');return r.json();});
   renderer.domElement.dataset.curbJoins=JSON.stringify(applyCurbJoins(kok,curbJoinPatch));
+  try{renderer.domElement.dataset.parcelPaving=JSON.stringify({applied:true,...applyParcelPaving(kok)})}catch(pavementError){renderer.domElement.dataset.parcelPaving=JSON.stringify({applied:false,error:String(pavementError)});console.error("67Park pavement repair did not apply",pavementError)}
+  try{renderer.domElement.dataset.fountainGroundFollowup=JSON.stringify({applied:true,...applyFountainGroundFollowup(kok)})}catch(pavementError){renderer.domElement.dataset.fountainGroundFollowup=JSON.stringify({applied:false,error:String(pavementError)});console.error("67Park pavement repair did not apply",pavementError)}
+  try{renderer.domElement.dataset.parcelCornersFollowup=JSON.stringify({applied:true,...applyParcelCorners(kok)})}catch(pavementError){renderer.domElement.dataset.parcelCornersFollowup=JSON.stringify({applied:false,error:String(pavementError)});console.error("67Park pavement repair did not apply",pavementError)}
   const stairGeometry=repairIslandStairs(kok);
   renderer.domElement.dataset.stairGeometry=JSON.stringify(stairGeometry.stats);
   zeminler=zeminler.filter(m=>!stairGeometry.nonWalkableNames.includes(m.name));
@@ -1230,6 +1241,7 @@ await entryStage(13,'Finishing the northern neighbourhood');
     if(helper&&geometry){helper.geometry.dispose();helper.geometry=geometry;}
   }
   terrainSampler=wrapParkEntryCapsSampler57(wrapParkRingSampler63(wrapParkPathSampler57(wrapParkTerrainSampler57(createTerrainSampler(zeminler.filter(m=>!m.userData.parkPond65CollisionOnly)),kok),kok),kok),kok);
+  try{terrainSampler=wrapParcelRepairSampler(terrainSampler,kok);renderer.domElement.dataset.parcelRepairPrecision=JSON.stringify({applied:true,...terrainSampler.stats.parcelRepairPrecision})}catch(pavementError){renderer.domElement.dataset.parcelRepairPrecision=JSON.stringify({applied:false,error:String(pavementError)});console.error("67Park pavement precision did not apply",pavementError)}
   hazir=true;
   renderer.shadowMap.type=THREE.PCFShadowMap;
   renderer.domElement.dataset.receiverPlaneAdapter='r185-native-hardware-pcf';
