@@ -1,1 +1,1 @@
-import{c as a}from"./chunk-WQZNX5T4.js";a();var e=new URLSearchParams(location.search);e.get("practice")==="1"?await import("./balloon-practice-WHPMZ5DB.js"):e.has("match")?await import("./online-match-GJ5KU54E.js"):location.replace("/67park-island/?online=1");
+import{c as a}from"./chunk-WQZNX5T4.js";a();var e=new URLSearchParams(location.search);e.get("practice")==="1"?await import("./balloon-practice-IBCZIBKS.js"):e.has("match")?await import("./online-match-Y2XMU7PJ.js"):location.replace("/67park-island/?online=1");

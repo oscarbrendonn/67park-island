@@ -126,12 +126,64 @@
       "match": "desc: 'Pastel toy arena — balloon buddies, color pads, zigzag walls.'"
     },
     {
-      "file": "source-kimi/src/game/net.ts",
-      "match": "p: [0, 1.6, 0],"
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "if (e.code === 'KeyR') {"
     },
     {
-      "file": "source-kimi/src/game/net.ts",
-      "match": "targetP: [0, 1.6, 0],"
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "import CityMap from './CityMap'"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<SkyRig />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<Precipitation />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<Stars radius={190} depth={60} count={2400} factor={4} saturation={0} fade speed={0.6} />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "far: 600"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<CityMap />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<BalloonArena />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<ObstacleCourse />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<BasketArena />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<SoccerArena />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<KartArena />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<Bots />"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "<Clouds limit={10}>"
+    },
+    {
+      "file": "source-kimi/src/game/Experience.tsx",
+      "match": "useFrame(() => markWorldReady())"
     },
     {
       "file": "source-kimi/src/game/HUD.tsx",
@@ -160,10 +212,6 @@
     {
       "file": "source-kimi/src/game/HUD.tsx",
       "match": "absolute left-4 top-4 flex items-center gap-1.5"
-    },
-    {
-      "file": "source-kimi/src/game/HUD.tsx",
-      "match": "className={`pointer-events-auto absolute ${"
     },
     {
       "file": "source-kimi/src/game/HUD.tsx",
@@ -231,10 +279,6 @@
     },
     {
       "file": "source-kimi/src/game/HUD.tsx",
-      "match": "          💬 Chat{coarse ? '' : ' — Enter'}"
-    },
-    {
-      "file": "source-kimi/src/game/HUD.tsx",
       "match": "          🟢 {online} online"
     },
     {
@@ -252,146 +296,6 @@
     {
       "file": "source-kimi/src/game/HUD.tsx",
       "match": "<span className=\"text-2xl leading-none\">{em.icon}</span>"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "if (e.code === 'KeyR') {"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "import CityMap from './CityMap'"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<SkyRig />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<Precipitation />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<Stars radius={190} depth={60} count={2400} factor={4} saturation={0} fade speed={0.6} />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "far: 600"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<CityMap />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<BalloonArena />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<ObstacleCourse />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<BasketArena />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<SoccerArena />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<KartArena />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<Bots />"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "<Clouds limit={10}>"
-    },
-    {
-      "file": "source-kimi/src/game/Experience.tsx",
-      "match": "useFrame(() => markWorldReady())"
-    },
-    {
-      "file": "source-kimi/src/game/audio.ts",
-      "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
-    },
-    {
-      "file": "source-kimi/src/game/SkateBoard.tsx",
-      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "        emoteId.current = em;"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "    anim.play(speed > 4.6 ? \"run\" : speed > 0.7 ? \"walk\" : \"idle\");"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "const fx = applyEmote(bones, em, emotePhase.current);"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "createFriendsieAnim(model, goril.scene, goril.animations)"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "function RemoteCharacter({\n  eq,"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "  eq: EquipState;"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "<RemoteCharacter eq={eq}"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "      return;\n    }\n    if (wasEmote.current)"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "    emoteRef.current = r.emote;"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "  useEffect(() => () => anim.dispose(), [anim]);"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "const remotes = useMemo(() => [...net.remotes.values()], [version]);"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "const FOOT_GROUND = -0.54;"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "    const em = emoteRef.current as EmoteId | '';"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "        lift.current.position.y = FOOT_GROUND + (fx.rootBobY ?? 0);"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "        lift.current.rotation.y = fx.rootYaw ?? 0;"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "        <>\n          <RemoteCharacter"
-    },
-    {
-      "file": "source-kimi/src/game/RemotePlayers.tsx",
-      "match": "          <NameTag name={r.name} color={r.color} y={1.15} />\n        </>"
-    },
-    {
-      "file": "source-kimi/src/game/embed.ts",
-      "match": "m === 'city' || m === 'cloud' || m === 'balloon'"
     },
     {
       "file": "source-kimi/src/game/Player.tsx",
@@ -530,28 +434,92 @@
       "match": "      camTarget.set(pos.x + fx * 1.5, pos.y + 0.8, pos.z + fz * 1.5)"
     },
     {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
+      "file": "source-kimi/src/game/net.ts",
+      "match": "p: [0, 1.6, 0],"
     },
     {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "clips: THREE.AnimationClip[]\n)"
+      "file": "source-kimi/src/game/net.ts",
+      "match": "targetP: [0, 1.6, 0],"
     },
     {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
+      "file": "source-kimi/src/game/embed.ts",
+      "match": "m === 'city' || m === 'cloud' || m === 'balloon'"
     },
     {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "        emoteId.current = em;"
     },
     {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "  g.name = `acc-${item.id}`"
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "    anim.play(speed > 4.6 ? \"run\" : speed > 0.7 ? \"walk\" : \"idle\");"
     },
     {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "  g.name = `proc-${pid}`"
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "const fx = applyEmote(bones, em, emotePhase.current);"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "createFriendsieAnim(model, goril.scene, goril.animations)"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "function RemoteCharacter({\n  eq,"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "  eq: EquipState;"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "<RemoteCharacter eq={eq}"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "      return;\n    }\n    if (wasEmote.current)"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "    emoteRef.current = r.emote;"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "  useEffect(() => () => anim.dispose(), [anim]);"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "const remotes = useMemo(() => [...net.remotes.values()], [version]);"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "const FOOT_GROUND = -0.54;"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "    const em = emoteRef.current as EmoteId | '';"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "        lift.current.position.y = FOOT_GROUND + (fx.rootBobY ?? 0);"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "        lift.current.rotation.y = fx.rootYaw ?? 0;"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "        <>\n          <RemoteCharacter"
+    },
+    {
+      "file": "source-kimi/src/game/RemotePlayers.tsx",
+      "match": "          <NameTag name={r.name} color={r.color} y={1.15} />\n        </>"
+    },
+    {
+      "file": "source-kimi/src/game/SkateBoard.tsx",
+      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
+    },
+    {
+      "file": "source-kimi/src/game/audio.ts",
+      "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
     },
     {
       "file": "source-kimi/src/game/HeroPlayer.tsx",
@@ -654,6 +622,30 @@
       "match": "import { inRiverSwimArea } from './riverSurface'"
     },
     {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "clips: THREE.AnimationClip[]\n)"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "  g.name = `acc-${item.id}`"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "  g.name = `proc-${pid}`"
+    },
+    {
       "file": "source-claude/src/games/balloon.js",
       "match": "from './balloon-arena.js'"
     },
@@ -686,14 +678,6 @@
       "match": "sun.shadow.mapSize.set(1024, 1024);"
     },
     {
-      "file": "source-kimi/src/game/net.ts",
-      "match": "p: [0, 1.6, 0],"
-    },
-    {
-      "file": "source-kimi/src/game/net.ts",
-      "match": "targetP: [0, 1.6, 0],"
-    },
-    {
       "file": "source-kimi/src/game/assemble.ts",
       "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
     },
@@ -710,66 +694,6 @@
       "match": "const PREFIX = '67v.'"
     },
     {
-      "file": "source-kimi/src/game/audio.ts",
-      "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "| 'groundsit'"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "export const EMOTES: EmoteDef[] = ["
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "export function setEmote(id: EmoteId | null) {"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  if (emoteState.current === id) return"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  emoteState.current = id"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  const { setX, setY, setZ } = makeSetters(bones)"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "| 'groundsit' | 'sixseven' | 'groundpunch'"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  {id:'sixseven',label:'Six Seven',icon:'👐',tempo:1},"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  if(id && GESTURE_DURATION[id]) gestureTimer=setTimeout(()=>setEmote(null),GESTURE_DURATION[id]*1000)"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  const gesture=applyCharacterGesture(bones,id,p)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "clips: THREE.AnimationClip[]\n)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
-    },
-    {
-      "file": "source-claude/src/player.js",
-      "match": "  slideAlongSolids(s, env.solids);"
-    },
-    {
       "file": "source-claude/src/core/friendsie-bot.js",
       "match": "const model = cloneSkinned(template);"
     },
@@ -782,8 +706,8 @@
       "match": "object.receiveShadow = false;"
     },
     {
-      "file": "source-kimi/src/game/SkateBoard.tsx",
-      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
+      "file": "source-claude/src/player.js",
+      "match": "  slideAlongSolids(s, env.solids);"
     },
     {
       "file": "source-kimi/src/game/net.ts",
@@ -794,20 +718,24 @@
       "match": "targetP: [0, 1.6, 0],"
     },
     {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
     },
     {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "  g.name = `acc-${item.id}`"
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "clips: THREE.AnimationClip[]\n)"
     },
     {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "  g.name = `proc-${pid}`"
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
     },
     {
       "file": "source-kimi/src/game/audio.ts",
       "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
+    },
+    {
+      "file": "source-kimi/src/game/SkateBoard.tsx",
+      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
     },
     {
       "file": "source-kimi/src/game/emote.ts",
@@ -850,22 +778,6 @@
       "match": "  const gesture=applyCharacterGesture(bones,id,p)"
     },
     {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "clips: THREE.AnimationClip[]\n)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
-    },
-    {
-      "file": "source-kimi/src/game/SkateBoard.tsx",
-      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
-    },
-    {
       "file": "source-kimi/src/game/net.ts",
       "match": "p: [0, 1.6, 0],"
     },
@@ -884,86 +796,6 @@
     {
       "file": "source-kimi/src/game/assemble.ts",
       "match": "  g.name = `proc-${pid}`"
-    },
-    {
-      "file": "source-kimi/src/game/audio.ts",
-      "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "clips: THREE.AnimationClip[]\n)"
-    },
-    {
-      "file": "source-kimi/src/game/friendsieClips.ts",
-      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "| 'groundsit'"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "export const EMOTES: EmoteDef[] = ["
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "export function setEmote(id: EmoteId | null) {"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  if (emoteState.current === id) return"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  emoteState.current = id"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  const { setX, setY, setZ } = makeSetters(bones)"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "| 'groundsit' | 'sixseven' | 'groundpunch'"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  {id:'sixseven',label:'Six Seven',icon:'👐',tempo:1},"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  if(id && GESTURE_DURATION[id]) gestureTimer=setTimeout(()=>setEmote(null),GESTURE_DURATION[id]*1000)"
-    },
-    {
-      "file": "source-kimi/src/game/emote.ts",
-      "match": "  const gesture=applyCharacterGesture(bones,id,p)"
-    },
-    {
-      "file": "source-kimi/src/game/SkateBoard.tsx",
-      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
-    },
-    {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
-    },
-    {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "  g.name = `acc-${item.id}`"
-    },
-    {
-      "file": "source-kimi/src/game/assemble.ts",
-      "match": "  g.name = `proc-${pid}`"
-    },
-    {
-      "file": "source-kimi/src/game/net.ts",
-      "match": "p: [0, 1.6, 0],"
-    },
-    {
-      "file": "source-kimi/src/game/net.ts",
-      "match": "targetP: [0, 1.6, 0],"
     },
     {
       "file": "source-kimi/src/game/emote.ts",
@@ -1020,6 +852,166 @@
     {
       "file": "source-kimi/src/game/friendsieClips.ts",
       "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
+    },
+    {
+      "file": "source-kimi/src/game/SkateBoard.tsx",
+      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
+    },
+    {
+      "file": "source-kimi/src/game/net.ts",
+      "match": "p: [0, 1.6, 0],"
+    },
+    {
+      "file": "source-kimi/src/game/net.ts",
+      "match": "targetP: [0, 1.6, 0],"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "  g.name = `acc-${item.id}`"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "  g.name = `proc-${pid}`"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "clips: THREE.AnimationClip[]\n)"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "| 'groundsit'"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "export const EMOTES: EmoteDef[] = ["
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "export function setEmote(id: EmoteId | null) {"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  if (emoteState.current === id) return"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  emoteState.current = id"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  const { setX, setY, setZ } = makeSetters(bones)"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "| 'groundsit' | 'sixseven' | 'groundpunch'"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  {id:'sixseven',label:'Six Seven',icon:'👐',tempo:1},"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  if(id && GESTURE_DURATION[id]) gestureTimer=setTimeout(()=>setEmote(null),GESTURE_DURATION[id]*1000)"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  const gesture=applyCharacterGesture(bones,id,p)"
+    },
+    {
+      "file": "source-kimi/src/game/audio.ts",
+      "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
+    },
+    {
+      "file": "source-kimi/src/game/SkateBoard.tsx",
+      "match": "for (const k of BOARD_KINDS) useGLTF.preload(`${BASE}models/boards/${k}.glb`)"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "    attachPartToSlot(clone, master, pid, null, getScene)\n  }\n}"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "  g.name = `acc-${item.id}`"
+    },
+    {
+      "file": "source-kimi/src/game/assemble.ts",
+      "match": "  g.name = `proc-${pid}`"
+    },
+    {
+      "file": "source-kimi/src/game/net.ts",
+      "match": "p: [0, 1.6, 0],"
+    },
+    {
+      "file": "source-kimi/src/game/net.ts",
+      "match": "targetP: [0, 1.6, 0],"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "      next.reset().fadeIn(fade).play()\n      if (cur && actions[cur]) actions[cur]!.fadeOut(fade)"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "clips: THREE.AnimationClip[]\n)"
+    },
+    {
+      "file": "source-kimi/src/game/friendsieClips.ts",
+      "match": "const retargeted = clips.map((c) => retargetClip(c, srcRest, dstRest))"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "| 'groundsit'"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "export const EMOTES: EmoteDef[] = ["
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "export function setEmote(id: EmoteId | null) {"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  if (emoteState.current === id) return"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  emoteState.current = id"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  const { setX, setY, setZ } = makeSetters(bones)"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "| 'groundsit' | 'sixseven' | 'groundpunch'"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  {id:'sixseven',label:'Six Seven',icon:'👐',tempo:1},"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  if(id && GESTURE_DURATION[id]) gestureTimer=setTimeout(()=>setEmote(null),GESTURE_DURATION[id]*1000)"
+    },
+    {
+      "file": "source-kimi/src/game/emote.ts",
+      "match": "  const gesture=applyCharacterGesture(bones,id,p)"
+    },
+    {
+      "file": "source-kimi/src/game/audio.ts",
+      "match": "if (!muted && danceDef && danceDef.id !== 'groundsit') {"
     },
     {
       "file": "source-kimi/src/game/SkateBoard.tsx",
@@ -1049,6 +1041,7 @@
     "source-kimi/src/game/weatherCore.ts",
     "source-kimi/src/game/weather.ts",
     "source-kimi/src/game/ride.ts",
+    "app/rig-copies.js",
     "app/emote-motion.js",
     "app/character-gestures.js",
     "source-kimi/src/game/emote.ts",
@@ -1608,6 +1601,7 @@
     "source-kimi/src/game/parts_catalog.json",
     "source-kimi/src/game/parts_names.json",
     "source-kimi/src/game/equip.ts",
+    "shared/chat-moderation.js",
     "source-kimi/src/game/net.ts",
     "source-kimi/src/game/identity.ts",
     "app/travel-portal.js",
@@ -1626,6 +1620,7 @@
     "app/PerfGovernor.tsx",
     "node_modules/@dimforge/rapier3d-compat/rapier.mjs",
     "node_modules/@react-three/rapier/dist/react-three-rapier.esm.js",
+    "app/hawk-map-controls.js",
     "app/emote-camera.js",
     "app/skate-tricks.js",
     "app/skate-deck.js",
@@ -1663,6 +1658,7 @@
     "app/character-power-fx.js",
     "app/emote-fx.js",
     "app/travel-fx.js",
+    "app/zfight-guard.js",
     "app/CityMap.tsx",
     "source-kimi/src/game/balloonGame.ts",
     "source-kimi/src/game/BalloonArena.tsx",
@@ -6227,8 +6223,10 @@
     "node_modules/@phosphor-icons/react/dist/csr/YoutubeLogo.es.js",
     "node_modules/@phosphor-icons/react/dist/index.es.js",
     "app/ParkTouchControls.tsx",
-    "app/settings.css",
+    "app/park-radio.js",
+    "app/ParkRadio.tsx",
     "app/ParkSettings.tsx",
+    "app/ParkChat.tsx",
     "app/wardrobe-preview.ts",
     "app/Wardrobe.tsx",
     "source-kimi/src/game/travel.ts",
